@@ -1,34 +1,46 @@
 <html>
+
 <head>
-<title>Sellers</title>
+    <title>Sellers</title>
 </head>
+
 <body>
 
-<form>
-  Name of shop:<br>
-  <input type="text" name="shopname"><br><br>
-  PRODUCT DETAILS:<br><br>
+    <form>
+        Name of shop:
+        <br>
+        <input type="text" name="shopname">
+        <br>
+        <br> PRODUCT DETAILS:
+        <br>
+        <br>
 
+        <label for="category">Choose a category:</label>
+        <br>
 
-  <label for="category">Choose a category:</label><br>
+        <select id="category">
+            <option value="Technology">Technology</option>
+            <option value="Grocery">Grocery</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Others">Others</option>
+            <br>
+        </select>
+        <br>
+        <br> Product price:
+        <br>
+        <input type="number" name="price">
+        <br>
+        <br> Specifications:
 
-<select id="category">
-  <option value="Technology">Technology</option>
-  <option value="Grocery">Grocery</option>
-  <option value="Fashion">Fashion</option>
-  <option value="Others">Others</option><br>
-</select><br><br>
+        <br>
+        <input type="text" name="specifications">
+        <br>
+        <br>
 
-
-Product price:<br>
-  <input type="text" name="price"><br><br>
-
-Specifications:<br>
-  <input type="text" name="specifications"><br><br>
-
-  <input type="submit" value="Submit">
-  <input type="reset">
-</form>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
 
 </body>
+
 </html>
