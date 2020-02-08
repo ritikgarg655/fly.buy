@@ -101,6 +101,16 @@ padding-right:0px;
 {
 width:80%;
 }
+.form_div input[type="number"],input[type="Enter License No."]
+{
+width:80%;
+}
+.form_div input[type="tel"],input[type="Enter Mobile no."]
+{"]
+{
+width:80%;
+}
+
 .form_div textarea
 {
 width:80%;
