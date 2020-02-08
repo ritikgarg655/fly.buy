@@ -49,6 +49,24 @@ font-size:17px;
 padding-left:5px;
 border:none;
 }
+.form_div input[type="tel"],input[type="Enter Mobile no."]
+{
+width:230px;
+height:40px;
+border-radius:2px;
+font-size:17px;
+padding-left:5px;
+border:none;
+}
+.form_div input[type="number"],input[type="Enter License No."]
+{
+width:230px;
+height:40px;
+border-radius:2px;
+font-size:17px;
+padding-left:5px;
+border:none;
+}
 .form_div input[type="submit"]
 {
 width:230px;
