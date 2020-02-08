@@ -101,7 +101,7 @@ padding-right:0px;
 {
 width:80%;
 }
-.form_div input[type="number"],input[type="Enter License No."]
+.form_div input[type="text"],input[type="Enter License No."]
 {
 width:80%;
 }
